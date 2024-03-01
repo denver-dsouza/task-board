@@ -1,0 +1,115 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center vertically */
+
+}
+
+.lane {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px; /* Set a fixed width for the task card */
+  max-width: 100%; /* Ensure card doesn't exceed container width */
+
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+.yellow {
+  background-color: #ffffcc;
+}
+
+.red {
+  background-color: #ffcccc;
+}
+.card{
+  background-color: gainsboro;
+}
+
+.card-header {
+  background-color: #f0f0f0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  padding: 8px;
+  font-weight: bold;
+}
+
+.card-content {
+  padding: 10px 0;
+}
+
+.delete-task {
+  margin-top: 10px;
+}
+
+.ui-datepicker {
+  z-index: 9999 !important;
+}
+
+.transparent-text {
+  color: rgba(0, 0, 0, 0.5); /* Adjust transparency as needed */
+}
+.form-label.due-date-label {
+  position: absolute;
+    top: -30px; /* Adjust this value as needed to position the text properly */
+    right: 10px; /* Adjust this value to align the text with the input field */
+    transform: translateX(-100%); /* Center the text horizontally */
+
+}
+
+.form-control {
+  margin-bottom: 10px; /* Adjust this value to control the spacing between inputs */
+  padding: 10px; /* Add padding to the input fields */
+
+}
+
+#dueDate {
+  margin-top: 10px; /* Adjust the margin-top value as needed */
+}
+
+.smaller-input {
+  width: 60%; /* Adjust the width as needed */
+}
+
+.same-size-input {
+  height: 38px; /* Adjust the height as needed */
+}
+
+.form-label.due-date-label {
+  margin-left: 15px; /* Adjust the left margin for the "Due Date" label */
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.input-group > .form-control {
+  flex: 1; /* Allow input boxes to expand to fill available space */
+  margin-right: 10px; /* Adjust the spacing between input boxes */
+}
+
+#taskName {
+  margin-top: 10px; /* Adjust the top margin to move the task name input box down */
+}
