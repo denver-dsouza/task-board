@@ -1,7 +1,7 @@
 # Welcome to Denver's Task Board
 The objective of this project is to have a board where tasks can be added and the color scheme of the task changes, depending on the due date. If the due date is nearing, the colour of the tasks changes to yellow. If the due date has passed, the colour of the task changes to red.
 
-##Example Screenshot:
+## Example Screenshot:
 ![image](https://github.com/denver-dsouza/task-board/assets/156268676/5748418b-6831-477b-8c62-e305f5aa5dd7)
 
 ## Features
